@@ -8,7 +8,6 @@ public class RockPaperScissors {
         if (playerMove.equals("Scissors") && computerMove.equals("Paper")) return "Player Wins";
         return "Computer Wins";
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] moves = { "Rock", "Paper", "Scissors" };
